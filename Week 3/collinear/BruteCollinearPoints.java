@@ -4,7 +4,7 @@ import java.util.List;
 
 public class BruteCollinearPoints {
 
-    private List<LineSegment> segments = new ArrayList<>();
+    private final List<LineSegment> segments = new ArrayList<>();
 
     public BruteCollinearPoints(Point[] points)   {
         if (points == null) throw new IllegalArgumentException();
@@ -18,11 +18,11 @@ public class BruteCollinearPoints {
         for (int i = 0; i < sortedPoints.length; i++) {
             for (int j = i + 1; j < sortedPoints.length; j++) {
                 for (int k = j + 1; k < sortedPoints.length; k++) {
-                    for (int l = k + 1; l < sortedPoints.length; l++) {
+                    for (int m = k + 1; m < sortedPoints.length; m++) {
 
                         if (sortedPoints[i].slopeTo(sortedPoints[j]) == sortedPoints[i].slopeTo(sortedPoints[k])) {
-                            if (sortedPoints[i].slopeTo(sortedPoints[k]) == sortedPoints[i].slopeTo(sortedPoints[l])) {
-                                LineSegment currentSeg = new LineSegment(sortedPoints[i], sortedPoints[l]);
+                            if (sortedPoints[i].slopeTo(sortedPoints[k]) == sortedPoints[i].slopeTo(sortedPoints[m])) {
+                                LineSegment currentSeg = new LineSegment(sortedPoints[i], sortedPoints[m]);
                                 segments.add(currentSeg);
                           }
                         }
