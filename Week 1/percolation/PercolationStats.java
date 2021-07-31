@@ -27,8 +27,6 @@ public class PercolationStats {
         for (int i = 0; i < trials; i++) {
             Percolation p = new Percolation(n);
 
-
-
             while (!p.percolates()) {
                 int row = StdRandom.uniform(n) + 1;
                 int col = StdRandom.uniform(n) + 1;
