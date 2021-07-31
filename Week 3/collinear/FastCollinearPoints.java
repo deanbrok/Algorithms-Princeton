@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Comparator;
 
 public class FastCollinearPoints {
 
     private static final int MIN_CUTOFF = 4;
-    private List<LineSegment> segments = new ArrayList<>();
+    private final List<LineSegment> segments = new ArrayList<>();
 
     // finds all line segments containing 4 or more points
     public FastCollinearPoints(Point[] points) {
@@ -36,7 +35,7 @@ public class FastCollinearPoints {
                     firstIndex = j;
                 }
             }
-            addToSegments(firstIndex, sortBySlope.length , currentPoint, sortBySlope);
+            addToSegments(firstIndex, sortBySlope.length, currentPoint, sortBySlope);
         }
     }
 

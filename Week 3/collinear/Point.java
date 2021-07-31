@@ -149,7 +149,7 @@ public class Point implements Comparable<Point> {
 
         System.out.println(p8.compareTo(p9));
 
-        System.out.println(p8.slopeOrder().compare(points[6], points[9]));
+        System.out.println(p8.slopeOrder().compare(points[6], points[8]));
 
         for (Point p: points) {
             System.out.println(p);
