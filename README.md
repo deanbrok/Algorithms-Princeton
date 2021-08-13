@@ -2,9 +2,6 @@
 
 My solutions to all programming assignment for the Princeton University Algorithms I & II Coursera courses.
 
-Interview questions to be added in two phases:
-1) Written answers
-2) Implementation (where appropriate) 
 
 ## Algorithms I
 
