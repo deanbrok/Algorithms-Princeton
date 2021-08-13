@@ -1,7 +1,6 @@
 # Algorithms-Princeton
 
-My solutions to all programming assignment for the Princeton University Algorithms I & II Coursera courses.
-
+Solutions and notes to all programming assignment for the Algorithms I & II Coursera courses from Princeton University.
 
 ## Algorithms I
 
