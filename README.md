@@ -5,7 +5,7 @@ My solutions to all programming assignment for the Princeton University Algorith
 
 ## Algorithms I
 
-**Topics covered**
+#### Topics covered
 | Week | Topics                                                |
 |------|-------------------------------------------------------|
 | 1    | Union-Find, Analysis of Algorithms                    |
@@ -15,7 +15,7 @@ My solutions to all programming assignment for the Princeton University Algorith
 | 5    | Balanced Search Trees, Geometric Applications of BSTs |
 | 6    | Hash Tables, Symbol Table Applications                |
 
-**Assignments**
+#### Assignments
 | Week | Assignment                                                                                                   | Score   |
 |------|--------------------------------------------------------------------------------------------------------------|---------|
 | 1    | [Percolation](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)             | 100/100 |
@@ -26,12 +26,19 @@ My solutions to all programming assignment for the Princeton University Algorith
 
 
 
-
 ## Algorithms II
 
-**Topics covered*
+#### Topics covered
+| Week | Topics                                         |
+|------|------------------------------------------------|
+| 1    | Undirected Graphs, Directed Graphs             |
+| 2    | Minimum Spanning Trees, Shortest Paths         |
+| 3    | Maximum Flow and Minimum Cut, Radix Sorts      |
+| 4    | Tries, Substring Search                        |
+| 5    | Regular Expressions, Data Compression          |
+| 6    | Reductions, Linear Programming, Intractability |
 
-**Assignments**
+#### Assignments
 | Week | Assignment                                                                                             | Score |
 |------|--------------------------------------------------------------------------------------------------------|-------|
 | 1    | [WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)               | -/100 |
