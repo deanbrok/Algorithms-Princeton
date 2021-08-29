@@ -41,8 +41,8 @@ Solutions and notes to all programming assignment for the Algorithms I & II Cour
 | Week | Assignment                                                                                             | Score   |
 |------|--------------------------------------------------------------------------------------------------------|---------|
 | 1    | [WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)               | 100/100 |
-| 2    | [Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)             | -/100   |
-| 3    | [Baseball Elimination](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php) | -/100   |
+| 2    | [Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)             | 100/100   |
+| 3    | [Baseball Elimination](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php) | 100/100   |
 | 4    | [Boggle](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php)                 | -/100   |
 | 5    | [Burrows-Wheeler](https://coursera.cs.princeton.edu/algs4/assignments/burrows/specification.php)       | -/100   |
 
